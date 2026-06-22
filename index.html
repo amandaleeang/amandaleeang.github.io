@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amanda's</title>
+    <title>Amanda Lee</title>
+    <style>
+        :root {
+            --accent: #e91e63;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin: 0 0 10px 0;
+            color: white;
+        }
+        .subtitle {
+            font-size: 1.4rem;
+            color: var(--accent);
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        .links {
+            margin: 40px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            margin: 10px;
+            background: transparent;
+            color: white;
+            border: 2px solid var(--accent);
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            background: var(--accent);
+            transform: translateY(-3px);
+        }
+        footer {
+            margin-top: 60px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="container">
+        <h1>Amanda</h1>
+        <p class="subtitle">Explorer • Mathematician • Dreamer</p>
+        
+        <p>
+            Hello, I'm Amanda. Welcome to my little corner of the internet.<br>
+            Currently balancing Master's in Applied Mathematics, tech automation experiments, 
+            and embracing my feminine side.
+        </p>
+
+        <div class="links">
+            <a href="#" class="btn">About Me</a>
+            <a href="#" class="btn">Tech Blog</a>
+            <a href="#" class="btn">Mathematics</a>
+            <a href="#" class="btn">Contact</a>
+        </div>
+
+        <footer>
+            © 2026 Amanda Leeang • Hosted on Cloudflare Pages
+        </footer>
+    </div>
 </body>
 </html>
